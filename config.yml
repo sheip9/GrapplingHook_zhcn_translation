@@ -1,0 +1,33 @@
+debug: false
+display_name: '&b抓钩'
+lore:
+- '&r&7&o鼠标右键丢出去'
+- '&r&7&o剩下{USES} 使用次数'
+- '&r&7&o{DISTANCE} 方块距离'
+- '&r&e<收藏者的物品>'
+- 此抓钩被发现于
+- 悬崖的底部...
+glowing: true
+rappel_cooldown: 1000
+throw_cooldown: 1000
+rappel_sound: ENTITY_MAGMA_CUBE_JUMP
+latch_sound: ENTITY_SHEEP_SHEAR
+throw_speed_multiplier: 2.0
+nofall: true
+stabilize: true
+stabilize_distance: 5.0
+auto_retract: true
+auto_retract_cooldown: 2000
+nofall_delay: 3500
+auto_rappel: true
+allow_pull: false
+pull_multiplier: 1.0
+break_sound: ENTITY_ITEM_BREAK
+messages:
+  permissionDenied: '&c你没有权限!'
+  playerNotFound: '&c玩家未找到!'
+  reload: '&e[抓钩] 插件已重载!'
+  give: '&e此玩家已经被给予了一个抓钩!'
+  debugOn: '&e[抓钩] 测试已开启!'
+  debugOff: '&e[抓钩] 测试已关闭!'
+  cannotUse: '&c你现在不能这么做!'
